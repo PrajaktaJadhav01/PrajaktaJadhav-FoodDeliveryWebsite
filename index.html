@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Food Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="christmas_2012_new_2857.jpg" alt="logo">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#cuisine">Cuisine</a>
+                        <a href="#menu">Menu</a>
+                        <a href="#contact">Contact</a>
+<label class="logo" onclick="closemenu()">X</label>
+                    </li>
+                   </ul>
+                   <label class="Menu" onclick="openmenu()">≣</label>
+            </nav>
+            <div class="header-text">
+                <p>
+                    Tasty Food
+                </p>
+                <h1>
+             Hii, Welcome <span>Tasty Food</span> <br>Website
+                </h1>
+            </div>
+        </div>
+        </div>
+    <!----------------------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="home.png">
+                </div>
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Tasty Food
+                    </h1>
+                    <p>
+                       Our Tasty Food Provides Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming and hihgly pleasant to the taste. You wouldn't call delicious that what is tasteless or unpleasant.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick=" opentab('Menu')">Menu</p>
+                        <p class="tab-links" onclick=" opentab('Drinks')">Drinks</p>
+                        <p class="tab-links" onclick=" opentab('Street Food')">Street Food</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Menu">
+                        <ul><li><span>Italian</span><br>Pasta Pizza ...</li></ul>
+                        <ul><li><span>Indian</span><br>Special Thali...</li></ul>
+                        <ul><li><span> Chinese</span><br>Manchurian Noodles...</li></ul>
+                    </div>
+                    <div class="tab-contents" id="Drinks">
+                        <ul><li><span> Summer Special</span><br>juices Mojito...</li></ul>
+                        <ul><li><span> Hot</span><br>Coffie Chocalate...</li></ul>
+                        <ul><li><span>Sweet</span><br>Lassi and many more...</li></ul>
+                    </div>
+                    <div class="tab-contents" id="Street Food">
+                        <ul><li><span> Spicy</span><br>Pavbhaji...</li></ul>
+                        <ul><li><span> Sweet</span><br>jalebi....</li></ul>
+                        <ul><li><span> Sour</span><br>Panipuri</li></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -<!------------services-------------------->
+    <div id="cuisine">
+        <div class="container">
+            <h1 class="sub-title">
+                Types Of Cuisine
+            </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>
+                        Special Indian Thali
+                    </h2>
+                    <p>
+                        A grain: rice or flatbread made with wheat, millet, etc. lentils: dal or sambar. vegetables: a seasonal preparation. chutney: a condiment made with fruit, herbs, spices, and even vegetables and fish.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>
+                        Italian Delicious
+                    </h2>
+                    <p>
+                        Pasta. So famous it is a staple food in every household, pasta ties first place with Pizza for Italy's greatest invention. Coming in all shapes and styles, each with a unique taste and texture.
+                        
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-light fa-code-simple"></i>
+                    <h2>
+                      Special Summer Drinks
+                    </h2>
+                    <p>
+                       Includes black grape juice, amla juice rich in vitamin C, pomegranate juice, and orange juice.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-----------------menu----------------->
+    <div id="menu">
+        <div class="container">
+            <h1 class="sub-title">
+                Our Special Menu
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="food2.png" width="250px" height="250px">
+                    <div class="layer">
+                        <h3>
+                           Varieties Of Burgur
+                            <p>1.Hamburger
+                                T2.urkey Burger
+                                3.Classic Burger
+                                4.Lamb Burger
+                                5.Chicken Burger
+                                6.Specialty Burger
+                                7.Cheese Burger
+                                8.Bacon Burger.....</p>
+                            <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                        </h3>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="food3.png" width="250px" height="250px">
+                    <div class="layer">
+                        <h3>
+                         Varieties Of Crispy Chicken
+                            <p>1.Crispy Chicken Fry 
+                               2. CRISPY AND CRUNCHY CHICKEN PAKORA
+                                3.Hyderabadi Wedding Chicken Fry 
+                                4.Chicken 65 (Indian Style)
+                               5. Chilli Chicken (Dry)
+                                6.Chicken Mince Nuggets....</p>
+                            <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                        </h3>
+
+                    </div>
+                </div>
+
+                       </div>
+                      </div>
+                  </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-----------------------------contact------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> Email:tastyfood002@gmail.com</p>
+                    <p> Phone No:000-000-000-000</p>
+                    <a href="foodmenu.pdf" download class="btn btn2">Download Menu</a>
+                </div>
+                <div class="contact-right">
+                    <form  name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Phone No" name="Phone No" placeholder="Your Phone No" required>
+                        <input type="Address" name="Address" placeholder="Your Address" required>
+                       <textarea name="Order" rows="6" placeholder="Your Order"></textarea>
+                      <button type="Placed Order" class="btn btn2">Placed Order</button>
+                    </form>
+                    <span id="Msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@Copyright Created By Prajakta ©</p>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+                
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <form name="submit-to-google-sheet">
+
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwNjDSRtsHvGs0VWYSvd_n_llucx4syCax8cXVrq7kZHcb6TjafhZ30ABdEh5qPqunfPQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("Msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                Msg.innerHTML= "Your Ordered Placed Successfully"
+                setTimeout(function(){
+                    Msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+        
+      </script>
+</body>
+</html>
